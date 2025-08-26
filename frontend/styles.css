@@ -1,0 +1,8 @@
+body, html, #root { height:100%; margin:0; font-family:Inter, sans-serif; }
+.app-root { display:flex; height:100vh; }
+.sidebar { width:320px; background:#0f1724; color:#dbeafe; padding:12px; box-sizing:border-box }
+.file-list { margin-top:12px; overflow:auto; max-height:80vh }
+.file { padding:6px; cursor:pointer }
+.file.active { background:#0b1220 }
+.editor { flex:1 }
+.file-actions button{ display:block; width:100%; margin-bottom:8px }
